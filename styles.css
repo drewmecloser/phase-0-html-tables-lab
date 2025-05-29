@@ -1,0 +1,32 @@
+/* General table styling */
+table {
+    width: 100%; /* Make the table take up the full width of its container */
+    border-collapse: collapse; /* Collapse borders between cells for a cleaner look */
+    margin: 20px 0; /* Add some space above and below the table */
+    font-family: Arial, sans-serif; /* Set a common font for the table */
+}
+
+/* Styling for table header cells (th) and data cells (td) */
+th, td {
+    border: 1px solid #ddd; /* Light gray border for all cells */
+    padding: 8px; /* Add some padding inside the cells */
+    text-align: left; /* Align text to the left within cells */
+}
+
+/* Styling for table header cells specifically */
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Make header text bold */
+    color: #333; /* Darker text color for headers */
+}
+
+/* Zebra striping for table rows (alternating background colors) */
+/* This makes the table easier to read by visually separating rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lighter background for even rows */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Highlight row on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
